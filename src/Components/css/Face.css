@@ -1,0 +1,22 @@
+.webcam {
+    width: 150px;
+    height: 150px;
+
+}
+.take-btn{
+    margin: 0 20px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #F77D0A;
+    margin: 20px 0;
+
+}
+.take-btn:hover{
+    background-color: #10f92b;
+    color: #fff;
+}
+.take-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

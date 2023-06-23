@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.scanner-container h6 ,
+.door-container h6 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.camera {
+    width: 150px;
+    height: 150px;
+}
+.scanner-container {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+}
+.reset-btn{
+    margin: 0 20px;
+    border: none;
+    padding: 7.5px 15px;
+    background-color: #F77D0A;
+
+}
+.reset-btn:hover{
+    background-color: #5a1111;
+    color: #fff;
+}
+.btn-options {
+    margin: 20px 0;
+}
+.my-circle-door {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+
+.door-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    width: 300px;
+    height: 100px;
+}
+.open-door {
+    background-color: darkgreen;
+    transition: background-color 5s ease-in-out;
+    -webkit-transition: background-color 5s ease-in-out;
+    -moz-transition: background-color 5s ease-in-out;
+    -ms-transition: background-color 5s ease-in-out;
+    -o-transition: background-color 5s ease-in-out;
+}
+.close-door {
+    background-color: #5a1111;
+    transition: background-color 5s ease-in-out;
+    -webkit-transition: background-color 5s ease-in-out;
+    -moz-transition: background-color 5s ease-in-out;
+    -ms-transition: background-color 5s ease-in-out;
+    -o-transition: background-color 5s ease-in-out;
+}
+
+.digital-screen {
+    margin: 10px 0;
+
+}
+
+.digital-screen p {
+    background-color: black;
+    color: #fff;
+    padding: 20px 40px;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    font-size: 18px;
+}
+img {
+    width:100px;
+    height:100px;
+}
+
+.all-container .scanner-container video ,
+.all-container .camera-container video{
+    width:200px;
+    height:300px;
+}
+
+.camera-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+.camera-container .btns-container {
+    display: flex;
+}
+.camera-container .btns-container .btn  {
+    font-size: 12px;
+    margin: 0 20px;
+    border: none;
+    padding: 5px 10px;
+    background-color: #F77D0A;
+}
+.camera-container .btns-container .btn:hover {
+    background-color: #0a8f98;
+}
+.camera-container .images-container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+.camera-container .images-container img {
+    margin: 0 20px;
+}
+.camera-container .verification-status {
+    margin: 50px 0;
+    font-size: 24px;
+}

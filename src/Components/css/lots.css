@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lots-container{
+    position: relative;
+    margin: 5px;
+}
+.car-lot {
+    width: 60px;
+    height: 80px;
+    border: 2px solid #000;
+    background-color: #b9c5d1;
+    padding: 10px;
+    font-size: 14px;
+
+}
+.my-circle {
+    position: absolute;
+    top: 99%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.open {
+    background-color: green;
+}
+.close {
+    background-color: red;
+}
+.lot-number {
+    font-size: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.car-lot-notEmpty {
+    background-image: url("/public/car-top-view.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border-color: #42ee0e; */
+    
+}

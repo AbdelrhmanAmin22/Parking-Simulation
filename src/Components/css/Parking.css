@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.car-lot-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 10px;
+    width: 500px;
+    height: 500px;
+
+}
+.car-lot-notEmpty {
+    background-image: url("/public/car-top-view.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border-color: #42ee0e; */
+    
+}
+.button {
+    margin: 10px 5px;
+    border: none;
+    padding: 7.5px 15px;
+    background-color: #F77D0A;
+}
+button:hover {
+    background-color: #22f70a;
+}
